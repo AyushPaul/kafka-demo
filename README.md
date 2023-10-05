@@ -1,5 +1,6 @@
 # Kafka-Demo
-
+[![Springboot](https://img.shields.io/badge/Springboot-v3.0-green)](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+[![Kafka](https://img.shields.io/badge/Kafka-v7.3.2-lightblue)](https://developer.confluent.io/)
 ## Producer
 
 
