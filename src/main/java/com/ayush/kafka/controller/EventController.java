@@ -24,7 +24,17 @@ public class EventController {
         }catch (Exception e){
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
+    }
 
-
+    @GetMapping("/produce/bulk/{message}")
+    public ResponseEntity<?> sendBulkMessage(@PathVariable String message){
+        try {
+            for(int i = 0 ; i<1000;i++){
+                kafkaProducerService.sendMessageToTopic(message+" : "+ i);
+            }
+            return ResponseEntity.ok("Bulk Message Published Successfully!");
+        }catch (Exception e){
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 }
