@@ -14,7 +14,7 @@ public class KafkaProducerService {
     private KafkaTemplate<String,Object> template;
 
     public void sendMessageToTopic(String message){
-        CompletableFuture<SendResult<String, Object>> future = template.send("demo-topic", message);
+        CompletableFuture<SendResult<String, Object>> future = template.send("kafka-demo", message);
 
         future.whenComplete((result,ex)->{
             if (ex == null) {
