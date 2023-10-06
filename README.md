@@ -5,4 +5,6 @@
 https://github.com/AyushPaul/kafka-demo/assets/67481937/356d8aff-cf80-42a3-8ca6-81b50ec66ea3
 ## Bulk-Producer
 https://github.com/AyushPaul/kafka-demo/assets/67481937/7106e0dd-a328-4de2-aad3-3e5cd1a0adbc
+## Consumer
+https://github.com/AyushPaul/kafka-demo/assets/67481937/1ce9b395-5ca4-4e91-acbf-caccbb43cb7d
 
